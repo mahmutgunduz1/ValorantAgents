@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/reynaFragment"
+        android:title="reyna"
+
+
+        />
+    <item
+        android:id="@+id/jettFragment"
+        android:title="jett"
+        android:icon="@drawable/jett_wind"/>
+
+    <item
+        android:id="@+id/razeFragment"
+        android:title="raze"
+        android:icon="@drawable/raze_bomb"
+        />
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/jettFragment">
+
+    <fragment
+        android:id="@+id/jettFragment"
+        android:name="com.example.valorantagents.JettFragment"
+        android:label="fragment_jett"
+        tools:layout="@layout/fragment_jett" />
+    <fragment
+        android:id="@+id/razeFragment"
+        android:name="com.example.valorantagents.RazeFragment"
+        android:label="fragment_raze"
+        tools:layout="@layout/fragment_raze" />
+    <fragment
+        android:id="@+id/reynaFragment"
+        android:name="com.example.valorantagents.ReynaFragment"
+        android:label="fragment_reyna"
+        tools:layout="@layout/fragment_reyna" />
+    <fragment
+        android:id="@+id/sageFragment"
+        android:name="com.example.valorantagents.SageFragment"
+        android:label="fragment_sage"
+        tools:layout="@layout/fragment_sage" />
+    <fragment
+        android:id="@+id/skyeFragment"
+        android:name="com.example.valorantagents.SkyeFragment"
+        android:label="fragment_skye"
+        tools:layout="@layout/fragment_skye" />
+</navigation>
